@@ -1,0 +1,10 @@
+language: c++
+os:
+  - linux
+
+addons:
+  apt:
+    packages:
+      - make
+
+script: mkdir obj; cd src; make
